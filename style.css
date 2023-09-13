@@ -9,16 +9,19 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.header{
-    background: #2874f0;
-    padding: .6% 0;
-}
-
 .container{
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
 }
+
+/* ------Header section Start------ */
+.header{
+    background: #2874f0;
+    padding: .6% 0;
+}
+
+
 
 nav{
     display: flex;
@@ -103,3 +106,42 @@ nav{
     -ms-transform: rotate(270deg);
     -o-transform: rotate(270deg);
 }
+/* ------Header section End------ */
+
+/* ------Variety section Start------ */
+.variety{
+    padding: 1% 0;
+}
+.variety-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+.item a {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+.variety-image{
+    width: 64px;
+    margin-bottom: 5%;
+}
+.item:hover a {
+    color: #2874f0;
+}
+
+/* ------Variety section End------ */
