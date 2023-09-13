@@ -1,19 +1,23 @@
 # Flipkart Navbar Ass-7 CSS
 
 ## Hosted Link
-You can view the project live at [Flipkart](https://your-project-link-here.com)
+You can view the project live at [View live Project](https://saifulislam05.github.io/flipkart-header/)
 
 ## Project Description
 The "Flipkart" project is a web page that replicates the design of the Flipkart e-commerce platform's header section. It includes a navigation bar, search input, and various navigation links.
 ## HTML Explanation
 
 ### Header (`.header`)
+![image](https://github.com/saifulislam05/flipkart-header/assets/73392705/ed3daeb1-f5d4-41a2-9d92-905cfcc182e0)
+
 - The header contains the logo, search bar, and navigation links.
 - The logo includes the Flipkart logo image and "Explore Plus" text with styling.
 - The search bar allows users to input search queries.
 - Navigation links include "Login," "Become a Seller," "More," and "Cart."
 
 ### Variety Section
+![image](https://github.com/saifulislam05/flipkart-header/assets/73392705/deceb369-773b-434b-919d-aabf5e76d248)
+
 - The variety section displays various product categories.
 
 ## CSS Explanation
